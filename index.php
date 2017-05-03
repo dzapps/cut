@@ -5,7 +5,7 @@ ob_start();
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
-<title>اختصار الروابط</title>
+<title>ط§ط®طھطµط§ط± ط§ظ„ط±ظˆط§ط¨ط· </title>
 <style type="text/css">
 <!--
 	body {
@@ -46,14 +46,14 @@ ob_start();
 </style>
 </head>
 <body>
-  <h2 align="center">اختصار الروابط </h2>
+  <h2 align="center">ط§ط®طھطµط§ط± ط§ظ„ط±ظˆط§ط¨ط· </h2>
   <div>
 <?php
 
 /*
 location of file to store URLS
 */
-$file = 'urls.txt';
+$file = 'https://dzapps.github.io/cut/urls.txt';
 
 /* 
 use mod_rewrite: 0 - no or 1 - yes
@@ -66,9 +66,9 @@ language/style/output variables
 
 $l_url			= 'URL';
 $l_nourl		= '<strong>No URL supplied</strong>';
-$l_yoururl		= '<strong>الرابط المختصر:</strong>';
-$l_invalidurl	= '<strong>الرابط غير صالح.</strong>';
-$l_createurl	= 'اختصر الرابط';
+$l_yoururl		= '<strong>ط§ظ„ط±ط§ط¨ط· ط§ظ„ظ…ط®طھطµط±: </strong>';
+$l_invalidurl	= '<strong>ط§ظ„ط±ط§ط¨ط· ط؛ظٹط± طµط§ظ„ط­.</strong>';
+$l_createurl	= 'ط§ط®طھطµط± ط§ظ„ط±ط§ط¨ط·';
 
 //////////////////// NO NEED TO EDIT BELOW ////////////////////
 
@@ -142,21 +142,21 @@ if($action == 'redirect')
 <form action="<?=$_SERVER['../PHP_SELF']?>" method="post">
 <p class="response"><?=$output?></p>
 <p>
-	<label for="s-url">ادخل الرابط :</label>
+	<label for="s-url">ط§ط¯ط®ظ„ ط§ظ„ط±ط§ط¨ط· :</label>
 	<input name="url" type="text" id="s-url" value="http://" size="45" />
 </p>
 <p>
 	<input type="submit" class="button" name="create" value="<?=$l_createurl?>" />
 </p>
 </form> </div>
-<div><a href="http://www.elrafik.com/url" title="Short URL Service">Shorturl</a> &nbsp;| <a href="http://www.elrafik.com/forum" title="Generate Free Sitemap">دعم فني </a>&nbsp;| <a href="http://www.elrafik.com/favi" title="Generate Free Favicon">Free Favicon</a>&nbsp;| <a href="http://www.elrafik.com/forum" title="Download Free PHP Scripts">منتديات</a>&nbsp;| <a href="http://www.elrafik.com/url" title="Free PHP Linker Script">الرئيسية</a> </div>
+<div><a href="http://www.elrafik.com/url" title="Short URL Service">Shorturl</a> &nbsp;| <a href="http://www.elrafik.com/forum" title="Generate Free Sitemap">أڈأڑأ£ أ‌أ¤أ­ </a>&nbsp;| <a href="http://www.elrafik.com/favi" title="Generate Free Favicon">Free Favicon</a>&nbsp;| <a href="http://www.elrafik.com/forum" title="Download Free PHP Scripts">أ£أ¤أٹأڈأ­أ‡أٹ</a>&nbsp;| <a href="http://www.elrafik.com/url" title="Free PHP Linker Script">أ‡أ،أ‘أ†أ­أ“أ­أ‰</a> </div>
 <!-- Free short url script from scriptomart.com -->
 <!-- Ads -->
 <br />
 <center><!-- Start Easy Banner Manager Code -->
 <div align="center"><script type="text/javascript"><!--
 google_ad_client = "ca-pub-9935930967042478";
-/* 728x90, تم إنشاؤها 11/05/10 */
+/* 728x90, أٹأ£ أ…أ¤أ”أ‡أ„أ¥أ‡ 11/05/10 */
 google_ad_slot = "4766287949";
 google_ad_width = 728;
 google_ad_height = 90;
